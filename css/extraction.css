@@ -1,0 +1,19 @@
+input {
+    font: inherit;
+    line-height: normal;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 0;
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    background: transparent;
+    outline: none;
+    color: black;
+    border-top: none;
+    border-left: none;
+
+    border-radius: 5px;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}

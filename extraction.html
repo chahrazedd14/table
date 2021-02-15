@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./css/extraction.css">
     <title>Hello, world!</title>
 </head>
 
@@ -18,10 +18,15 @@
         <h1 class="display-4 text-center">
             <i class="fas fa-book-open text-primary"></i> My<span class="text-primary">extraction</span>List
         </h1>
-        <form id="book-form">
-            <div class="form-group">
+
+        <form id="book-form" class="row">
+            <div class="form-group col-6">
                 <label for="title">Title</label>
                 <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group col-6">
+                <label for="title">extraction</label>
+                <input type="text" id="extraction" class="form-control">
             </div>
             <div class="form-group">
                 <label for="author">Author</label>
@@ -37,9 +42,10 @@
             <thead>
                 <tr>
                     <th>Title</th>
+
                     <th>Author</th>
                     <th>ISBN#</th>
-                    <th></th>
+                    <th>extraction</th>
                 </tr>
             </thead>
             <tbody id="book-list"></tbody>
