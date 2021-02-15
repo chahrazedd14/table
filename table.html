@@ -14,6 +14,14 @@
 
     <title>Hello, world!</title>
 </head>
+<form>
+    <input id="impression" name="impression" type="button" onclick="imprimer_page()" value="Imprimer cette page" />
+</form>
+<script type="text/javascript">
+    function imprimer_page() {
+        window.print();
+    }
+</script>
 
 <body>
     <div class="container">
