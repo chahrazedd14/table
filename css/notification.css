@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 300px;
+    height: auto;
+    padding: 1.4em;
+}
+
+.container .to-edit {
+    display: flex;
+}
+
+.container .to-edit h1 {
+    margin: 0;
+}
+
+.container .to-edit span.edit-btn {
+    font-size: 1.5rem;
+    margin-left: 0.5em;
+}
+
+.container .to-edit.active {
+    display: none;
+}
+
+.container .edit-input {
+    display: none;
+}
+
+.container .edit-input.active {
+    display: block;
+}
